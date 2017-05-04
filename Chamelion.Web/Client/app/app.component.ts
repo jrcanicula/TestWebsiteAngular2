@@ -30,7 +30,7 @@ export class AppComponent implements OnInit {
 
   public ngOnInit() {
     this.translate.onLangChange.subscribe((lan: string) => {
-      this.translate.get('TITLE')
+      this.translate.get('Hello World')
         .subscribe(title => this.setTitle(title));
     });
 

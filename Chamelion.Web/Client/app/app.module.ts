@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { StoreModule } from '@ngrx/store';
 import { HttpModule } from '@angular/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core/core.module';
@@ -25,6 +26,7 @@ import { AppComponent } from './app.component';
         BrowserAnimationsModule,
         BrowserModule,
         routing, 
+        NgbModule,
         // FormsModule,
         HttpModule,
         // Only module that app module loads
